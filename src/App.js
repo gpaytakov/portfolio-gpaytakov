@@ -3,7 +3,8 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import NavTabs from './components/NavTabs';
+import NavTabs from './components/NavTabs.js';
+import Footer from "./components/Footer";
 
 export default function App() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -28,6 +29,7 @@ export default function App() {
         <div>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer />
         </div>
     );
 }
