@@ -3,14 +3,6 @@ import React from "react";
 function Project() {
     const projects = [
       {
-        name: "Give Back!",
-        tools: "MongoDB | Express.js | React | Node.js",
-        description:
-          "This is a MERN stack web application that allows users to post the charitable organizations that they care about most and want to raise awareness for. Our goal was to make this a much more personal experience for users, versus just your typical search engine. Users are also able to search through other’s recommendations, comment on the organizations posted, and are offered a quick and simple way to donate to each of them.",
-        img_link: "https://gpaytakov.github.io/give-back/",
-        github: "https://github.com/gpaytakov/donate-for-good",
-      },
-      {
         name: "Work Day Scheduler",
         tools: "HTML | CSS | jQuery | Moment.js",
         description:
@@ -121,6 +113,14 @@ function Project() {
           "'Quotes For You' is a website where you can read quotes posted by other people. You can post quotes, like quotes posted by others and leave comments when you login to the website.",
         img_link: "https://young-beach-61820.herokuapp.com/",
         github: "https://github.com/gpaytakov/quotes-for-you",
+      },
+      {
+        name: "Give Back!",
+        tools: "MongoDB | Express.js | React | Node.js",
+        description:
+          "This is a MERN stack web application that allows users to post the charitable organizations that they care about most and want to raise awareness for. Our goal was to make this a much more personal experience for users, versus just your typical search engine. Users are also able to search through other’s recommendations, comment on the organizations posted, and are offered a quick and simple way to donate to each of them.",
+        img_link: "https://pacific-harbor-75933.herokuapp.com/",
+        github: "https://github.com/gpaytakov/donate-for-good",
       },
     ];
 
