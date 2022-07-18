@@ -8,9 +8,11 @@ export default function App() {
 
   
   return (
-    <div id="content-wrapper">
-      <Header />
+    <>
+      <div id="content-wrapper">
+        <Header />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }

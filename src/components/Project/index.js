@@ -3,6 +3,14 @@ import React from "react";
 function Project() {
     const projects = [
       {
+        name: "Give Back!",
+        tools: "MongoDB | Express.js | React | Node.js",
+        description:
+          "This is a MERN stack web application that allows users to post the charitable organizations that they care about most and want to raise awareness for. Our goal was to make this a much more personal experience for users, versus just your typical search engine. Users are also able to search through other’s recommendations, comment on the organizations posted, and are offered a quick and simple way to donate to each of them.",
+        img_link: "https://gpaytakov.github.io/give-back/",
+        github: "https://github.com/gpaytakov/donate-for-good",
+      },
+      {
         name: "Work Day Scheduler",
         tools: "HTML | CSS | jQuery | Moment.js",
         description:
@@ -118,14 +126,17 @@ function Project() {
 
     return (
       <div>
-        <h4>Note: Please click the image to visit deployed website. When you click on github, it will open github repository on a new tab.</h4>
+        <h4>
+          Note: Please click the image to visit deployed website. When you click
+          on github, it will open github repository on a new tab.
+        </h4>
         <div>
           {projects.map((project, i) => (
             <div id="project" key={i}>
               <div>
                 <h2>{project.name}</h2>
                 <h6>{project.description}</h6>
-                <a href={project.github} target="_blank">
+                <a href={project.github} target="_blank" rel="noreferrer">
                   <img
                     src={require(`../../assets/GitHub_Logo.png`)}
                     alt={project.name}
@@ -133,7 +144,7 @@ function Project() {
                   />
                 </a>
               </div>
-              <a href={project.img_link} target="_blank">
+              <a href={project.img_link} target="_blank" rel="noreferrer">
                 <img
                   src={require(`../../assets/${i}.png`)}
                   alt={project.name}
