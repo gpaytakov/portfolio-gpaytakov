@@ -27,14 +27,15 @@ function Header() {
   return (
     <>
       <div id="header">
-        <h1>
-          Guvanchmyrat Paytakov <span>Full Stack Developer</span>
-        </h1>
+        <div id="name-title">
+          <h1>Guvanchmyrat Paytakov</h1>
+          <h2>Full Stack Developer</h2>
+        </div>
+
         <Navigation
           currentPage={currentPage}
           handlePageChange={handlePageChange}
         />
-        
       </div>
       <main>{renderPage()}</main>
     </>

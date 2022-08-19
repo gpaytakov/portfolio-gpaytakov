@@ -133,7 +133,7 @@ function Project() {
         <div>
           {projects.map((project, i) => (
             <div id="project" key={i}>
-              <div>
+              <div id="project-info">
                 <h2>{project.name}</h2>
                 <h6>{project.description}</h6>
                 <a href={project.github} target="_blank" rel="noreferrer">
@@ -144,13 +144,15 @@ function Project() {
                   />
                 </a>
               </div>
-              <a href={project.img_link} target="_blank" rel="noreferrer">
-                <img
-                  src={require(`../../assets/${i}.png`)}
-                  alt={project.name}
-                  className="img-project"
-                />
-              </a>
+              <div id="project-img">
+                <a href={project.img_link} target="_blank" rel="noreferrer">
+                  <img
+                    src={require(`../../assets/${i}.png`)}
+                    alt={project.name}
+                    className="img-project"
+                  />
+                </a>
+              </div>
             </div>
           ))}
         </div>
