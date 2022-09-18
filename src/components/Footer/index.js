@@ -1,6 +1,6 @@
 import React from "react";
-import GitHub_Logo from "../../assets/GitHub_Logo.png";
-import li from "../../assets/li.png"
+import GitHub_Logo from "../../assets/GitHub_Logo.jpg";
+import li from "../../assets/li.jpg"
 
 const Footer = () => {
   return (

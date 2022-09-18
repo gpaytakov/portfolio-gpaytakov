@@ -138,7 +138,7 @@ function Project() {
                 <h6>{project.description}</h6>
                 <a href={project.github} target="_blank" rel="noreferrer">
                   <img
-                    src={require(`../../assets/GitHub_Logo.png`)}
+                    src={require(`../../assets/GitHub_Logo.jpg`)}
                     alt={project.name}
                     className="img-github"
                   />
@@ -147,7 +147,7 @@ function Project() {
               <div id="project-img">
                 <a href={project.img_link} target="_blank" rel="noreferrer">
                   <img
-                    src={require(`../../assets/${i}.png`)}
+                    src={require(`../../assets/${i}.jpg`)}
                     alt={project.name}
                     className="img-project"
                   />
