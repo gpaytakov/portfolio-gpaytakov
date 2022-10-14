@@ -42,28 +42,31 @@ function ContactForm() {
       <h1 id="title">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name"></label>
           <input
             type="text"
             name="name"
+            placeholder="Name"
             defaultValue={name}
             onBlur={handleChange}
           />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label htmlFor="email"></label>
           <input
             type="email"
             name="email"
+            placeholder="Email address"
             defaultValue={email}
             onBlur={handleChange}
           />
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label htmlFor="message"></label>
           <textarea
             name="message"
             rows="5"
+            placeholder="Your message"
             defaultValue={message}
             onBlur={handleChange}
           />

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio-gpaytakov/static/css/main.01f836a1.css",
+    "main.js": "/portfolio-gpaytakov/static/js/main.65dbc5e2.js",
+    "pdf.worker.js": "/portfolio-gpaytakov/e7e915313973ba1d49f9bb2a1998626e.js",
+    "static/media/resume.pdf": "/portfolio-gpaytakov/static/media/resume.2db03b290ef4cefeff2f.pdf",
+    "static/media/5.jpg": "/portfolio-gpaytakov/static/media/5.758ee209bc055dc8a6e2.jpg",
+    "static/media/1.jpg": "/portfolio-gpaytakov/static/media/1.fb62e1a5113530fc6f24.jpg",
+    "static/media/2.jpg": "/portfolio-gpaytakov/static/media/2.7f0367015179a58890ba.jpg",
+    "static/media/8.jpg": "/portfolio-gpaytakov/static/media/8.515e881c5ac01e473dc7.jpg",
+    "static/media/7.jpg": "/portfolio-gpaytakov/static/media/7.f3cd68999fdd8be0ad4e.jpg",
+    "static/media/3.jpg": "/portfolio-gpaytakov/static/media/3.8879381164296d7ce6ce.jpg",
+    "static/media/0.jpg": "/portfolio-gpaytakov/static/media/0.8c075a7b19118bb920d8.jpg",
+    "static/media/6.jpg": "/portfolio-gpaytakov/static/media/6.25b873272e7c632f633b.jpg",
+    "static/media/gp.jpg": "/portfolio-gpaytakov/static/media/gp.cd5ea880711d3ce741be.jpg",
+    "static/media/li.jpg": "/portfolio-gpaytakov/static/media/li.a95afc06831647f5fca2.jpg",
+    "static/media/4.jpg": "/portfolio-gpaytakov/static/media/4.216f0a22d4809f83ff54.jpg",
+    "static/media/GitHub_Logo_White.jpg": "/portfolio-gpaytakov/static/media/GitHub_Logo_White.729ac7d83b98131fccd9.jpg",
+    "static/media/GitHub_Logo.jpg": "/portfolio-gpaytakov/static/media/GitHub_Logo.746ec8f0bc97208f903e.jpg",
+    "index.html": "/portfolio-gpaytakov/index.html",
+    "main.01f836a1.css.map": "/portfolio-gpaytakov/static/css/main.01f836a1.css.map",
+    "main.65dbc5e2.js.map": "/portfolio-gpaytakov/static/js/main.65dbc5e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01f836a1.css",
+    "static/js/main.65dbc5e2.js"
+  ]
+}
